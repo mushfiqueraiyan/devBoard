@@ -20,23 +20,24 @@
     <main class="w-[1400px] bg-white mx-auto mt-5 mb-5 p-10 rounded-xl">
         <div class="bg-[#f4f7ff] p-5 rounded-2xl mt-4">
             <h1 class="text-[1.3rem]"><span class="font-bold">Question-1:</span> What are the different ways to select an element in the DOM?</h1>
-            <p class="text-gray-600 mt-5"><span class="font-bold">Answer: </span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sed minus temporibus unde incidunt. Sequi corrupti unde eveniet consequuntur voluptate!</p>
+            <p class="text-gray-600 mt-5"><span class="font-bold">Answer: </span>There are 4 types of ways you can select an element in the DOM. You can select all Element by Using document.queryselectorAll and you can select an Element by ID document.getElementByID or className for select a class and you can select any perticuler element by using document.querySelector()</p>
         </div>
         <div class="bg-[#f4f7ff] p-5 rounded-2xl mt-4">
             <h1 class="text-[1.3rem]"><span class="font-bold">Question-2:</span> What is the difference between innerHTML, innerText, and textContent ?</h1>
-            <p class="text-gray-600 mt-5"><span class="font-bold">Answer: </span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sed minus temporibus unde incidunt. Sequi corrupti unde eveniet consequuntur voluptate!</p>
+            <p class="text-gray-600 mt-5"><span class="font-bold">Answer: </span>In innerHTML you can modify the HTML in the dom by writing HTML code in javascript and innerText is you can modify any text in dom by using this method which is inside the element like inside the p tag & textContent is faster than innerText because it directly access nodes content and also its preserve white space of an element includes hidden text</p>
         </div>
         <div class="bg-[#f4f7ff] p-5 rounded-2xl mt-4">
             <h1 class="text-[1.3rem]"><span class="font-bold">Question-3:</span> What is event delegation in the DOM?</h1>
-            <p class="text-gray-600 mt-5"><span class="font-bold">Answer: </span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sed minus temporibus unde incidunt. Sequi corrupti unde eveniet consequuntur voluptate!</p>
+            <p class="text-gray-600 mt-5"><span class="font-bold">Answer: </span>Event Delegation is a technique in JavaScript where instead of adding event listeners to multiple child elements, you add a single event listener to a parent element and handle events when they "bubble up" from child elements. like when you select the parent and then click any child it will show the result if you set function(e) and then call it by targeting the event.
+                </p>
         </div>
         <div class="bg-[#f4f7ff] p-5 rounded-2xl mt-4">
             <h1 class="text-[1.3rem]"><span class="font-bold">Question-4:</span> What is event bubbling in the DOM?</h1>
-            <p class="text-gray-600 mt-5"><span class="font-bold">Answer: </span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sed minus temporibus unde incidunt. Sequi corrupti unde eveniet consequuntur voluptate!</p>
+            <p class="text-gray-600 mt-5"><span class="font-bold">Answer: </span>Event bubbling is like if you set a click event function on an element inside different elements and when you click on this element it will show all of the element name whichs inside the main selected element is</p>
         </div>
         <div class="bg-[#f4f7ff] p-5 rounded-2xl mt-4">
             <h1 class="text-[1.3rem]"><span class="font-bold">Question-5:</span> How do you create, add, and remove elements using JavaScript?</h1>
-            <p class="text-gray-600 mt-5"><span class="font-bold">Answer: </span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sed minus temporibus unde incidunt. Sequi corrupti unde eveniet consequuntur voluptate!</p>
+            <p class="text-gray-600 mt-5"><span class="font-bold">Answer: </span>We can create an element is DOM by using document.createElement method and we can add this by using appendChild() method and if we want to remove an element we can use removeChild() method for removing the element</p>
         </div>
     </main>
 </body>
